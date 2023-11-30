@@ -50,14 +50,18 @@ class InitialCondition:
     POP_UNEXPOSED = 49
     POP_INFECTED = 1
 
-
+"""
+Class for Host Config
+"""
 class HostConfig:
     SIZE = 11
     VACCINATION_DRIP = 3
     PREVENTATIVE_MEASURE_ADHERENCE = 0.5
     MAX_SPEED = 6
     MIN_SPEED = 2
-
+"""
+Class for Preventative Measure
+"""
 
 class PreventativeMeasure:
     SHELTER_IN_PLACE = 0
